@@ -25,6 +25,14 @@ a {
   }
 }
 
+.border-gradient {
+  @apply transition-colors border-2 border-transparent border-solid border-gradient-tr-pink-orange-white;
+}
+
+.text-gradient {
+  @apply text-transparent bg-clip-text bg-gradient-to-tr from-[#EC4DC7] to-[#ED823A];
+}
+
 @media screen and (max-width: 767px) {
   .gradient-container {
     right: 0;
