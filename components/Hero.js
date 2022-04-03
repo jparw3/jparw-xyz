@@ -19,8 +19,7 @@ function Hero() {
         className="relative z-40 mt-20"
       >
         <h1 className="font-poppins text-gray text-[44px] md:text-[80px] md:leading-[90px] font-medium leading-[50px]">
-          A freelance front-end engineer with a strong focus on interfaces and
-          experiences.{' '}
+          A freelance front-end engineer with a strong focus on interfaces and experiences.{' '}
         </h1>
       </motion.div>
       <Tooltip
@@ -35,10 +34,7 @@ function Hero() {
           className="z-40 relative flex cursor-pointer items-center text-[#62656D] space-x-1 mt-6 text-sm md:text-lg bg-white shadow-md p-2 rounded-lg w-fit"
         >
           <p>Curently available for work</p>
-          <motion.div
-            animate={{ y: [1, -1] }}
-            transition={{ repeat: Infinity, repeatType: 'reverse' }}
-          >
+          <motion.div animate={{ y: [1, -1] }} transition={{ repeat: Infinity, repeatType: 'reverse' }}>
             <CheckIcon className="w-5 h-5" />
           </motion.div>
         </motion.div>

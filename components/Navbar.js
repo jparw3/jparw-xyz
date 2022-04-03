@@ -14,19 +14,14 @@ function Navbar() {
     >
       <motion.div
         className={`stick px-5 flex items-center transition-all duration-200 ${
-          menuIsOpen &&
-          'bg-white bg-opacity-50 md:bg-transparent md:backdrop-blur-none backdrop-blur-sm'
+          menuIsOpen && 'bg-white bg-opacity-50 md:bg-transparent md:backdrop-blur-none backdrop-blur-sm'
         } justify-between h-full py-[25px]`}
       >
         <div>
           <Link href="/" passHref>
             <div>
-              <div className="hidden md:block text-lg font-medium text-[#1A1B1F] font-poppins">
-                Jack Willars
-              </div>
-              <div className="block md:hidden text-lg font-medium text-[#1A1B1F] font-poppins">
-                JW
-              </div>
+              <div className="hidden md:block text-lg font-medium text-[#1A1B1F] font-poppins">Jack Willars</div>
+              <div className="block md:hidden text-lg font-medium text-[#1A1B1F] font-poppins">JW</div>
             </div>
           </Link>
         </div>
@@ -34,9 +29,7 @@ function Navbar() {
           <div>About</div>
           <div>Contact</div>
           <div>Blog</div>
-          <div className="px-5 py-3 text-white bg-[#1A1B1F] rounded-lg">
-            View Work
-          </div>
+          <div className="px-5 py-3 text-white bg-[#1A1B1F] rounded-lg">View Work</div>
         </div>
 
         <motion.div
@@ -66,9 +59,7 @@ function Navbar() {
               <div>About</div>
               <div>Contact</div>
               <div>Blog</div>
-              <div className="bg-[#1A1B1F] w-fit mx-auto text-white py-2 px-6 rounded-lg">
-                View Work
-              </div>
+              <div className="bg-[#1A1B1F] w-fit mx-auto text-white py-2 px-6 rounded-lg">View Work</div>
             </div>
           </motion.div>
         )}
