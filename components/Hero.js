@@ -15,9 +15,9 @@ function Hero() {
         initial={{ y: 50, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.4, delay: 0.3 }}
-        className="relative z-40 mt-20"
+        className="relative z-40 "
       >
-        <h1 className="font-poppins text-gray text-[44px] md:text-[80px] md:leading-[90px] font-medium leading-[50px]">
+        <h1 className="font-poppins text-gray text-[42px] sm:text-[70px] md:text-[80px] sm:leading-[70px] md:leading-[90px] cursor-default font-medium leading-[50px]">
           A freelance front-end engineer with a strong focus on interfaces and experiences.{' '}
         </h1>
       </motion.div>
@@ -25,7 +25,7 @@ function Hero() {
         <Tooltip
           placement="right"
           label="Let's work together!"
-          className="text-[#62656D] bg-white shadow-md p-2 rounded-lg border-gradient"
+          className="text-[#62656D] bg-white shadow-md hidden sm:block p-2 rounded-lg border-gradient"
         >
           <motion.div
             initial={{ y: 50, opacity: 0 }}

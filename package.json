@@ -9,9 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@chakra-ui/react": "^1.8.7",
     "@chakra-ui/tooltip": "^1.5.0",
     "@heroicons/react": "^1.0.6",
     "autoprefixer": "^10.4.4",
+    "body-scroll-lock": "^4.0.0-beta.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.0.0",
     "framer-motion": "^6.2.8",
@@ -21,7 +23,8 @@
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "tailwindcss": "^3.0.23",
-    "tailwindcss-border-gradient-radius": "^3.0.1"
+    "tailwindcss-border-gradient-radius": "^3.0.1",
+    "tailwindcss-debug-screens": "^2.2.1"
   },
   "devDependencies": {
     "eslint": "^8.12.0",

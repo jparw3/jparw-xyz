@@ -42,5 +42,8 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [require('tailwindcss-border-gradient-radius')],
+  plugins: [
+    require('tailwindcss-border-gradient-radius'),
+    require('tailwindcss-debug-screens'),
+  ],
 };

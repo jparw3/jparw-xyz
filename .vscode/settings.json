@@ -1,3 +1,6 @@
 {
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "files.eol": "\n",
+    "eslint.run": "onSave",
+    "vscode_vibrancy.theme": "Dark (Only Subbar)",
 }

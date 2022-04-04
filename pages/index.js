@@ -3,7 +3,7 @@ import Hero from '../components/Hero';
 
 export default function Home() {
   return (
-    <div className="max-w-[1140px] mx-auto">
+    <div className="max-w-[1140px] mx-auto debug-screens">
       <Head>
         <title>Jack Willars</title>
       </Head>
